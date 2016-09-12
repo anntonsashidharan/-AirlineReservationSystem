@@ -1,0 +1,2285 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.success{
+    width: 100%;
+    height: 40px;
+
+}
+
+.successMessage {
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid green;
+    background-color: rgba(150, 216, 150, 0.4);
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.errorMessage {
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid red;
+    background-color: rgba(229, 142, 142, 0.59);
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+.informationMessage{
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: #3c0bff;
+    font-size: 20px;
+    border: 1px solid #3c0bff;
+    background-color: rgba(60, 11, 255, 0.16);
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+#topbar {
+    height: 80px;
+    background-color: #3a3a3a;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#logo, #menu {
+    float: left;
+}
+
+#login {
+    float: right;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#navbar, #loginnavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarItem a, .loginnavbarItem a {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding-top: 30px;
+    -webkit-box-sizing: border-box; /*issue with IE7*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbarItem {
+    float: left;
+    height: 100%;
+}
+
+.navbarItem a:hover, .loginnavbarItem a:hover {
+    background-color: black;
+}
+
+.loginnavbarItem {
+    float: right;
+    height: 100%;
+}
+
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.searchpaneltabs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.searchpaneltabs ul li a {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.searchpaneltabs ul li {
+    float: left;
+    height: 100%;
+}
+
+.searchpaneltabs ul li a:hover {
+    background-color: black;
+}
+
+.section1 {
+    background: url("../images/section1Background.jpg") no-repeat;
+    width: 100%;
+    padding-top: 50px;
+    background-size: cover;
+}
+
+.indexPageMessageSection{
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1 .content {
+    width: 70%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1 .content .searchpanel {
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.section1 .content .extra {
+    float: left;
+    width: 25%;
+    height: 350px;
+    background-image: url("../images/plane.jpg");
+    background-size: 100%;
+}
+
+.section1 .content .searchpaneltabs {
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+
+.section1 .searchform {
+    display: inline-flex;
+    height: 310px;
+    width: 100%;
+}
+
+.searchFormContent {
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+.searchFormContent .line1, .searchFormContent .line2, .searchFormContent .line3, .searchFormContent .line4, .searchFormContent .line5 {
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+
+.searchFormContent .line1 {
+    height: 30px;
+}
+
+.searchFormContent .line1 div {
+    float: left;
+    padding-left: 2%;
+}
+
+.searchFormContent .col1, .searchFormContent .col2 {
+    display: inline-flex;
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+.searchFormContent .line2 input, .searchFormContent .line3 input {
+    width: 90%;
+    margin: auto;
+    height: 70%;
+    font-size: 120%;
+    border-radius: 5px;
+    padding-left: 3%;
+}
+
+.searchFormContent .line4 .col1 > div, .searchFormContent .line4 .col2 > div {
+    width: 90%;
+    margin: auto;
+}
+
+.searchFormContent .line4 .col1 > div > div {
+    float: left;
+    width: 33%;
+    height: 50px;
+}
+
+.searchFormContent .line4 .col2 > div > div {
+    float: left;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.searchFormContent .line4 .col1 select, .searchFormContent .line4 .col2 select {
+    width: 95%;
+    margin-top: 5px;
+}
+
+/*
+.searchFormContent .line4 .col2 input{
+    margin-left: 0px;
+}
+
+.searchFormContent .line4 .col2 > div{
+    width: 100%;
+
+}
+.searchFormContent .line4 .classSelect>div{
+    margin-top: 5px;
+    float: left;
+}
+.searchFormContent .line4 .classSelect>div>select{
+    margin-left: 8%;
+}
+
+.searchFormContent .line4 .col2 > div{
+    width: 90%;
+    margin: auto;
+}*/
+
+.searchFormContent .line5 {
+    width: 100%;
+}
+
+.searchFormContent .line5 input {
+    float: right;
+    font-size: 15px;
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.searchFormContent .line5 input:hover {
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.searchpaneltabs {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.searchform {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+input {
+    opacity: 1;
+}
+
+/*image location for jquery*/
+.ui-widget-header .ui-icon {
+    background-image: url("/resources/images/ui-icons_444444_256x240.png");
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*Signup and login page*/
+
+.contentPane {
+    background: url("/resources/images/section1Background.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+#signupError, #loginError {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.loginPageMessageSection{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#signupFormContainer, #loginFormContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 420px;
+    box-shadow: 0px 0px 0px 5px rgba(84, 80, 111, 0.04), 0px 4px 20px rgb(0, 0, 0);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+    position: static;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.loginInformation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100px;
+    box-shadow: 0px 0px 0px 5px rgba(84, 80, 111, 0.04), 0px 4px 20px rgb(0, 0, 0);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+}
+
+.loginInformation>.information {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+#signupForm, #loginForm {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#signupForm > .header, #loginForm > .header {
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    color: #ffffff;
+}
+
+#signupForm > .header > p, #loginForm > .header > p {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    width: 80%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signupForm .inputs {
+    width: 100%;
+    height: 100%;
+}
+
+#signupForm #line1, #signupForm #line2, #signupForm #line3, #signupForm #line4,
+#loginForm #line1, #loginForm #line2, #loginForm #line3, #loginForm #line4 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#signupForm #line1, #signupForm #line2, #signupForm #line3, #signupForm #line4 a,
+#loginForm #line1, #loginForm #line2, #loginForm #line3, #loginForm #line4 a {
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#signupForm input[type="email"], #signupForm input[type=password],
+#loginForm input[type="email"], #loginForm input[type=password], #loginForm input[type="text"] {
+    padding-left: 10px;
+    background: #f5f5f5;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+#signupForm input[type="email"]:focus, #signupForm input[type=password]:focus,
+#loginForm input[type="email"]:focus, #loginForm input[type=password]:focus {
+    background: #feffd9;
+    box-shadow: 0px 0px 0px 3px #fbffa0, inset 0px 2px 3px rgba(0, 0, 0, 0.2), 0px 5px 5px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+#signupForm a,
+#loginForm a {
+    display: block;
+    text-align: center;
+}
+
+#signupForm #line4 p,
+#loginForm #line4 p {
+    align-self: center;
+}
+
+#signupForm input, #signupForm a,
+#loginForm input, #loginForm a {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 100%;
+    font-family: verdana, helvetica, arial, sans-serif;
+}
+
+#signupForm input[type="submit"], #signupForm a,
+#loginForm input[type="submit"], #loginForm a {
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.81) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+
+}
+
+#signupForm input[type="submit"]:hover, #signupForm a:hover,
+#loginForm input[type="submit"]:hover, #loginForm a:hover {
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+#signup {
+    padding: 0px 25px 25px;
+    background: #fff;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.4), 0px 4px 20px rgba(0, 0, 0, 0.33);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#signup .inputs input[type=email], input[type=password] {
+
+}
+
+/*Profile management page*/
+
+.profileManagementContentPane {
+    background: url("") no-repeat center center;
+    height: auto;
+}
+
+.contentPane > .profileManagementSuccess {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentPane > .profileManagementError {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentPane > .profileFormContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.contentPane > .profileFormContainer .profileForm .header {
+    padding-left: 20px;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div {
+    width: 100%;
+    height: 60px;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > div {
+    height: 50px;
+    float: left;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > div > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > .label {
+    padding-top: 8px;
+    clear: left;
+    width: 250px;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > .update {
+    clear: left;
+    float: left;
+    width: 580px;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > .update input {
+    font-size: 20px;
+    float: right;
+    height: 50px;
+    width: 35%;
+    border-radius: 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > .update input:hover {
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > .separator {
+    padding-top: 8px;
+    width: 30px;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > .input {
+    width: 300px;
+}
+
+.contentPane > .profileFormContainer .profileForm .inputs > div > .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 6px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+
+/*FAQ page*/
+.faqsearch {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    clear: left;
+}
+
+.searchinput {
+    float: right;
+    margin-right: 10px;
+}
+
+.searchbutton {
+    float: right;
+}
+
+.faqContentPane {
+    background: url("");
+    height: auto;
+}
+
+.faqFormContainer > .faqMessageSection{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.faqFormContainer > .header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    clear: left;
+}
+
+.faqFormContainer > .header > p {
+    margin-top: 0px;
+}
+
+.faqFormContainer > .questionAnswers {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: verdana, helvetica, arial, sans-serif;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv {
+    width: 100%;
+    font-size: 20px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    background: rgb(235, 235, 255);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border: 1px solid #aaaaaa;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 10px 10px #d9d9d9;
+    -moz-box-shadow: 0px 0px 10px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 10px #d9d9d9;
+    box-sizing: border-box;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .questionID {
+    font-weight: bold;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .answerForm > .newAnswer > .newAnswerTextArea {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .answerButton > input, .faqFormContainer > .questionAnswers > .questionDiv > .answerForm > .submitAnswerButton > .submitAnswer {
+    font-size: 15px;
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .answerButton > input:hover,
+.faqFormContainer > .questionAnswers > .questionDiv > .answerForm > .submitAnswerButton > .submitAnswer:hover {
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .answerForm > .submitAnswerButton > .submitAnswer {
+    float: right;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .answerForm > .submitAnswerButton {
+    height: 30px;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .userQuestion,
+.faqFormContainer > .questionAnswers > .questionDiv > .dateQuestion,
+.faqFormContainer > .questionAnswers > .questionDiv > .timeQuestion {
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .userQuestion {
+    margin-top: 5px;
+}
+
+.faqFormContainer > .questionAnswers > .questionDiv > .question {
+    margin-top: 5px;
+}
+
+.faqFormContainer > .questionAnswers > .answerDiv {
+    width: 100%;
+    font-size: 20px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    background: rgb(226, 227, 255);
+    border-radius: 8px;
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: 1px solid #aaaaaa;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 10px 10px #d9d9d9;
+    -moz-box-shadow: 0px 0px 10px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 10px #d9d9d9;
+}
+
+.faqFormContainer > .questionAnswers > .answerDiv > .answerID {
+    font-style: italic;
+}
+
+.faqFormContainer > .questionAnswers > .answerDiv > .userAnswer,
+.faqFormContainer > .questionAnswers > .answerDiv > .dateAnswer,
+.faqFormContainer > .questionAnswers > .answerDiv > .timeAnswer {
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.faqFormContainer > .faq > .inputs {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.faqFormContainer > .faq > .inputs textarea {
+    font-size: 20px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+.faqFormContainer > .faq > .inputs > #line2 {
+    height: 50px;
+}
+
+.faqFormContainer > .faq > .inputs > #line2 > input {
+    font-size: 20px;
+    float: right;
+    height: 50px;
+    width: 35%;
+    border-radius: 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+.faqFormContainer > .faq > .inputs > #line2 > input:hover {
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.faqpagenavigationpannel {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: left;
+    display: inline-flex;
+}
+
+.faqpagenavigationpannel > form {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Flight Search*/
+.searchResultContentPane {
+    background-image: none;
+    height: auto;
+}
+
+.flightSearchResultSuccess, .flightSearchResultError{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+
+.flightSearchResultContainer {
+    width: 100%;
+}
+
+.tripPane {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filter {
+    width: 100%;
+    height: 50px;
+    -webkit-box-shadow: 0 8px 6px -10px black;
+    -moz-box-shadow: 0 8px 6px -10px black;
+    box-shadow: 0 8px 6px -10px black;
+    padding-top: 10;
+}
+
+.tripPane .heading {
+    height: 60px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.tripPane .heading > .text {
+    width: 80%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.tripPane .heading > .text > p {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.tripPane .heading > .showHidefilterButton {
+    width: 10%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 45px;
+}
+
+.tripPane .heading > .showHidefilterButton > img {
+    width: 35%;
+    height: 100%;
+}
+
+.tripPane .message{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.proceedButtonDiv {
+    overflow: auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ui-slider-range.ui-widget-header.ui-corner-all {
+    background-color: red;
+    background-image: none;
+}
+
+.ui-slider-horizontal {
+    height: 3px;
+}
+
+.ui-slider .ui-slider-handle {
+    height: 10px;
+    width: 10px;
+    border: solid 1px black;
+}
+
+.filter {
+    height: 40px;
+}
+
+.filter > div {
+    float: left;
+    height: 40px;
+    width: 25%;
+}
+
+.filter > .label {
+    clear: left;
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-weight: bold;
+}
+
+.filter > .input {
+    padding-left: 20px;
+}
+
+.filter > .filterdetails {
+    clear: right;
+    padding-left: 20px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-weight: bold;
+    width: 30%;
+}
+
+.filter p {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.filter > .input p {
+    margin-top: 16px;
+    margin-bottom: auto;
+}
+
+.filter > .sort {
+    width: 40px;
+    height: 30px;
+    background: rgba(252, 255, 172, 0.29);
+    cursor: pointer;
+    float: right;
+    background-clip: content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    background-image: url("../images/sort-ascend.png");
+    -webkit-box-shadow: 0 2px 15px -7px #222;
+    -moz-box-shadow: 0 2px 15px -7px #222;
+    box-shadow: 0 2px 15px -7px #222;
+    border-radius: 5px;
+}
+
+.filter > .sort:HOVER {
+    -webkit-box-shadow: 0 2px 15px -3px #222;
+    -moz-box-shadow: 0 2px 15px -3px #222;
+    box-shadow: 0 2px 15px -3px #222;
+}
+
+.filter > .sort[clicked=true] {
+    -webkit-box-shadow: 0 2px 15px -2px #222;
+    -moz-box-shadow: 0 2px 15px -2px #222;
+    box-shadow: 0 2px 15px -2px #222;
+}
+
+.tripfilterPane {
+    padding-left: 5%;
+    padding-right: 5%;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 5px;
+}
+
+.tripResult {
+    width: 100%;
+}
+
+.trip {
+    width: 100%;
+    height: 80px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    background: -webkit-linear-gradient(top, rgb(182, 182, 182), rgb(244, 244, 244));
+    background: -moz-linear-gradient(top, rgb(182, 182, 182), rgb(244, 244, 244));
+    background: -ms-linear-gradient(top, rgb(182, 182, 182), rgb(244, 244, 244));
+    border-radius: 5px;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+}
+
+.trip > div {
+    float: left;
+}
+
+.trip > .date {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+.trip > .date > .day {
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    padding-top: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.trip > .date > .month {
+    padding-right: 6px;
+    padding-left: 10px;
+}
+
+.trip > .date > .year {
+}
+
+.trip > .time {
+    width: 30%;
+    font-size: 25px;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.trip > .time > div {
+    height: 50%;
+    padding-top: 5px;
+}
+
+.trip > .time > .label {
+    padding-right: 30px;
+    font-size: 22px;
+    width: 60%
+}
+
+.trip > .transiteDetails {
+    padding-top: 20px;
+    font-size: 17px;
+    width: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.trip > .transiteDetails > .numberOfTransites {
+    text-align: center;
+}
+
+.trip > .transiteDetails > .showTransiteDetailsButton {
+   text-align: center;
+    border: 2px solid #666666;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, rgb(182, 182, 182), rgb(244, 244, 244));
+    background: -moz-linear-gradient(top, rgb(182, 182, 182), rgb(244, 244, 244));
+    background: -ms-linear-gradient(top, rgb(182, 182, 182), rgb(244, 244, 244));
+}
+
+.trip > .transiteDetails > .showTransiteDetailsButton:hover {
+    border: 2px solid #2b2b2b;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, rgb(244, 244, 244), rgb(182, 182, 182));
+    background: -moz-linear-gradient(top, rgb(244, 244, 244), rgb(182, 182, 182));
+    background: -ms-linear-gradient(top, rgb(244, 244, 244), rgb(182, 182, 182));
+    cursor: pointer;
+}
+
+.trip > .airlineInfo {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    width: 150px;
+}
+
+.trip > .airlineInfo > .airlineLogo {
+    height: 32%;
+    text-align: center;
+}
+
+.trip > .airlineInfo > .airlineLogo > img {
+    height: 100%;
+    width: 40px;
+}
+
+.trip > .airlineInfo > .airlineName {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.trip > .priceDetail {
+    padding-top: 5px;
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.trip > .priceDetail > .price {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.trip > .selection {
+    padding-top: 5px;
+    display: inline-flex;
+    padding-top: 20px;
+    float: right;
+    padding-right: 20px;
+}
+
+.trip > .selection > .radioSelection {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.trip > .selection > .radioSelection > input {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+/*Transit panel*/
+.transitesPanel {
+    position: absolute;
+    background-color: #fafafa;
+    border-top: 10px solid lightsteelblue;
+    border-bottom: 10px solid lightsteelblue;
+    border-left: 1px solid lightsteelblue;
+    border-right: 1px solid lightsteelblue;
+    width: 300px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.45);
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.transitesPanel > .transiteHeading {
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed #000000;
+}
+
+.transitesPanel > .trasiteSummery {
+    border-bottom: 1px dashed #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.transitesPanel > .trasiteSummery > .lable {
+    width: 100px;
+}
+
+.transitesPanel .trasnsite {
+    background-color: rgba(95, 158, 160, 0.17);
+    margin-bottom: 5;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.transitesPanel .trasnsite > div {
+    margin-bottom: 3px;
+}
+
+.transitesPanel .trasnsite .lable {
+    width: 70px;
+}
+
+.transitesPanel .trasnsite .departure .lable {
+    width: 100px;
+}
+
+.transitesPanel .trasnsite .arrival .lable {
+    width: 100px;
+}
+
+.transitesPanel .trasnsite .duration .lable {
+    width: 100px;
+}
+
+.transitesPanel .trasnsite .airlineLogo {
+    margin-right: 10px;
+}
+
+.transitesPanel .trasnsite .airportDetail {
+    margin-left: 70px;
+}
+
+.transitesPanel .transiteTime {
+    background-color: rgba(110, 150, 248, 0.56);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.transitesPanel .transiteTime .lable {
+    font-weight: bold;
+}
+
+/* Admin Layout */
+.adminContentPane {
+    background: url("");
+    overflow: auto;
+    margin-bottom: 25px;
+}
+
+.administrationContainer, .administrationSuccess, .administrationError {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.administrationContainer > div {
+    float: left;
+}
+
+.administrationContainer > .administrationTreeMenue {
+    width: 25%;
+    border: 1px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.administrationContainer > .administrationTreeMenue ul {
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.administrationContainer > .administrationTreeMenue > ul > li > a {
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.administrationContainer > .administrationTreeMenue ul a {
+    display: block;
+    height: 35px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: white;
+}
+
+.administrationContainer > .administrationTreeMenue ul ul a {
+    padding-left: 30px;
+}
+
+.administrationContainer > .administrationTreeMenue ul ul a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.administrationContainer > .administrationTreeMenue ul ul {
+    margin-left: 0px;
+}
+
+
+
+.ticketSearchResultPanel{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+
+
+/*Create and manage user*/
+.administrationContainer > .adminstrationPanel {
+    margin-left: 1%;
+    width: 73.5%;
+    border: 1px solid black;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box; /*issue with IE7*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .header {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .header > p,
+.administrationContainer > .adminstrationPanel > .employeeForm > .subheader > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .subheader {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > div {
+    float: left;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .label {
+    clear: left;
+    width: 20%;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .separator {
+    width: 5%;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .input {
+    width: 50%;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .input P {
+    height: 40px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .input input {
+    height: 100%;
+    width: 150%;
+    font-size: 18px;
+    padding-left: 6px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .radio input {
+    height: 15px;
+    width: 15px;
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .radio p {
+    padding-top: 14px;
+
+}
+
+.administrationContainer > .adminstrationPanel > .employeeForm > .inputs > .line > .createUserButton {
+    clear: left;
+}
+
+.addPhoneNumber {
+    width: 70px;
+    height: 40px;
+}
+
+.button-standard-size {
+    float: right;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button-default {
+    border-radius: 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+.button-default:hover {
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.button-default:disabled {
+    border-radius: 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, rgba(45, 85, 113, 0.11), rgba(23, 63, 89, 0.36));
+    background: -moz-linear-gradient(top, rgba(45, 85, 113, 0.11), rgba(23, 63, 89, 0.36));
+    background: -ms-linear-gradient(top, rgba(45, 85, 113, 0.11), rgba(23, 63, 89, 0.36));
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: #666666;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+/*
+.administrationContainer>.adminstrationPanel>.employeeForm>.inputs>.line>.createUserButton input:hover{
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}*/
+
+/*Footer*/
+
+.footer {
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 10%;
+    background-color: #3a3a3a;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.footer > div {
+    float: left;
+}
+
+.footer .col1 {
+    box-sibox-sizing: border-box;
+    width: 40%;
+}
+
+.footer .col2 {
+    box-sibox-sizing: border-box;
+    width: 55%;
+}
+
+.footer .col1 > div {
+    height: 70px;
+    padding-top: 10px;
+}
+
+.footer .col1 .logo {
+    background: url("../images/fotter-col1-black-images.jpg");
+    height: 50px;
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.footer .col1 .text {
+    margin-left: 90px;
+    color: white;
+}
+
+.footer .col1 .address {
+    background-position: -18px -18px;
+}
+
+.footer .col1 .phone {
+    background-position: -18px -18px;
+}
+
+.footer .col1 .fax {
+    background-position: -18px -18px;
+}
+
+.footer .col1 .email {
+    background-position: -18px -18px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.footer .col2 .row1 {
+    height: 70px;
+}
+
+.socialmedia {
+    display: block;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 256px;
+}
+
+.socialmedia li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+    width: 44px;
+}
+
+.socialmedia li a {
+    background: url("../images/scialmedia-square-blac.png") no-repeat 0 0;
+    display: block;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    width: 44px;
+}
+
+.socialmedia li .twitter {
+    background-position: 0 0px;
+}
+
+.socialmedia li .facebook {
+    background-position: 0 -44px;
+}
+
+.socialmedia li .googleplus {
+    background-position: 0 -88px;
+}
+
+.socialmedia li .pinterest {
+    background-position: 0 -132px;
+}
+
+.socialmedia li .twitter:HOVER {
+    background-position: -44px 0px;
+}
+
+.socialmedia li .facebook:HOVER {
+    background-position: -44px -44px;
+}
+
+.socialmedia li .googleplus:HOVER {
+    background-position: -44px -88px;
+}
+
+.socialmedia li .pinterest:HOVER {
+    background-position: -44px -132px;
+}
+
+/*Employee search result modal styles*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    height: 500px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: rgba(7, 7, 7, 0.84);
+    color: white;
+}
+
+.modal-body {
+    width: 100%;
+    display: inline-flex;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.modal-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.84);
+    color: white;
+    display: inline-flex;
+}
+
+/*Employee search result in modal*/
+.employeeSearchResult {
+    width: 100%;
+    margin: 10px;
+}
+
+.ticketSearchResultTable{
+    width: 80%;
+    overflow-y: scroll;
+}
+
+.employeeSearchResultTable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.employeeSearchResultTable tr:nth-child(even) {
+    background-color: #efefef;
+}
+
+.employeeSearchResultTable td {
+    padding: 5px;
+}
+
+.employeeSearchResultTable tr:first-child {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #ffffff;
+    height: 35px;
+}
+
+.employeeSearchResultTable tr:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+    cursor: default;
+}
+
+.employeeSearchResultTable tr:first-child:hover {
+    background-color: rgba(0, 0, 0, 0.63);
+    cursor: default;
+}
+
+/*Pagination styles*/
+
+.pagination-navigation {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+.pagination-navigation li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.pagination-navigation li a {
+    background: url("../images/icons-pagination.png") no-repeat 0 0;
+    display: block;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+}
+
+.pagination-navigation li .firstPage {
+    background-position: -80 0px;
+}
+
+.pagination-navigation li .previousPage {
+    background-position: -120 0px;
+}
+
+.pagination-navigation li .pageNumber {
+    width: 60px;
+    background: none;
+}
+
+.pagination-navigation li .pageNumber > input {
+    width: 25px;
+}
+
+.pagination-navigation li .nextPage {
+    background-position: -160 0px;
+}
+
+.pagination-navigation li .lastPage {
+    background-position: -200 0px;
+}
+
+.pagination-navigation li .recordsPerPage {
+    background: none;
+}
+
+.pagination-navigation li .firstPage:hover {
+    background-position: -80 -160px;
+    cursor: hand;
+}
+
+.pagination-navigation li .previousPage:hover {
+    background-position: -120 -160px;
+    cursor: hand;
+}
+
+.pagination-navigation li .nextPage:hover {
+    background-position: -160 -160px;
+    cursor: hand;
+}
+
+.pagination-navigation li .lastPage:hover {
+    background-position: -200 -160px;
+    cursor: hand;
+}
+
+/*Booking process pages*/
+
+/*genaric*/
+
+/* Admin Layout */
+.addPassengerContentPane {
+    background: url("");
+    overflow: auto;
+    margin-bottom: 25px;
+}
+
+.container, .success, .error {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.container > div {
+    float: left;
+}
+
+/*Add passenger*/
+.container > .panel {
+    margin-left: 1%;
+    width: 73.5%;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box; /*issue with IE7*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container > .panel > .form > .header {
+   /* font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;*/
+    height: 60px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.66);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.header-panel{
+    /* font-family: verdana, helvetica, arial, sans-serif;
+ font-size: 30px;
+ font-weight: bold;*/
+    height: 60px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.66);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.container > .panel > .form > .header > p,
+.container > .panel > .form .subheader > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container > .panel > .form .subheader {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    clear: left;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    -webkit-box-shadow: 0 2px 15px -5px #222;
+    -moz-box-shadow: 0 2px 15px -5px #222;
+    box-shadow: 0 2px 15px -5px #222;
+    background-color: #608ca9;
+    padding-left: 10px;
+    border-radius: 8px;
+
+}
+.container > .panel > .form .passengerNumberLable,
+.panelSubHeading{
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    clear: left;
+    width: 100%;
+}
+
+
+.container > .panel > .form > .inputs .line > div {
+    float: left;
+}
+
+.container > .panel > .form > .inputs .line > .label {
+    clear: left;
+    width: 20%;
+}
+
+.container > .panel > .form > .inputs .line > .separator {
+    width: 5%;
+}
+
+.container > .panel > .form > .inputs .line > .input {
+    width: 50%;
+}
+
+.container > .panel > .form > .inputs .line > .input p {
+    height: 40px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.container > .panel > .form > .inputs .line > .input input,.container > .panel > .form > .inputs .line > .input select {
+    height: 100%;
+    width: 150%;
+    font-size: 18px;
+    padding-left: 6px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+
+.container > .panel > .form > .inputs .line > .radio input {
+    height: 15px;
+    width: 15px;
+}
+
+.container > .panel > .form > .inputs .line > .radio p {
+    padding-top: 14px;
+
+}
+
+.container > .panel > .form > .inputs .line > .submitPassengerInfoButton {
+    clear: left;
+    float: right;
+}
+.container > .panel > .form > .inputs .buttonSection {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    overflow: auto;
+}
+.container > .panel > .form > .inputs .passengerDetail,
+.container > .panel > .form > .inputs .bookingContactDetail,
+.container > .panel > .form > .inputs .paymentOptions{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 8px solid #557985;
+    -webkit-box-shadow: 0 2px 15px -2px #222;
+    -moz-box-shadow: 0 2px 15px -2px #222;
+    box-shadow: 0 2px 15px -2px #222;
+    overflow: auto;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.form-standard{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 8px solid #557985;
+    -webkit-box-shadow: 0 2px 15px -2px #222;
+    -moz-box-shadow: 0 2px 15px -2px #222;
+    box-shadow: 0 2px 15px -2px #222;
+    overflow: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+/*page1*/
+/*page2*/
+
+
+
+/*Booking summery*/
+
+.bookingSummery {
+    width: 25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.bookingSummery > .heading{
+    height: 60px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.66);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.bookingSummery .heading > div{
+
+}
+
+ .bookingSummery .subHeading{
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.38);
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+.bookingSummery .subHeading .icon{
+    float: left;
+    padding-left: 6px;
+}
+
+.bookingSummery .subHeading .text{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font: 30px;
+}
+
+.bookingSummery .subHeading .text span{
+    font-size: 20px;
+}
+
+.bookingSummery .subHeading .text span{
+    font-size: 20px;
+}
+.bookingSummery .detail{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.bookingSummery .detail .label{
+    overflow: hidden;
+    float: left;
+    width: 32%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bookingSummery .detail .value{
+    padding-right: 6px;
+}
+
+.bookingSummery .passengerDetails .label{
+ width: 60%;
+}
+
+.bookingSummery .costDetails .label{
+    width: 50%;
+}
+
+.bookingSummery .section{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 8px solid #557985;
+    -webkit-box-shadow: 0 2px 15px -7px #222;
+    -moz-box-shadow: 0 2px 15px -7px #222;
+    box-shadow: 0 2px 15px -7px #222;
+    overflow: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
+/*Payment option page*/
+.paymentOptions .paymentOption{
+    height: 60px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #173f59;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 15px -7px #222;
+    -moz-box-shadow: 0 2px 15px -7px #222;
+    box-shadow: 0 2px 15px -7px #222;
+}
+
+.paymentOptions .paymentOption:hover{
+    -webkit-box-shadow: 0 2px 15px -4px #222;
+    -moz-box-shadow: 0 2px 15px -4px #222;
+    box-shadow: 0 2px 15px -4px #222;
+    cursor: hand;
+}
+
+.paymentOptions .paymentOption .paymentOptionLabel{
+    font-size: 25px;
+    font-family: monospace;
+    width: 70%;
+    padding-left: 30px;
+}
+
+
+.panel-left{
+    float: left;
+    width: 25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.treeMenu{
+    width: 100%;
+}
+
+.header-treemenu{
+    height: 60px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.66);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.header-treemenu > p{
+    font-family: fantasy;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.treemenu-link{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px;
+    -webkit-box-shadow: 0 2px 15px -2px #222;
+    -moz-box-shadow: 0 2px 15px -2px #222;
+    box-shadow: 0 2px 15px -2px #222;
+}
+.treemenu-link a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 18px;
+}
+
+.treemenu-link a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
+.treemenu-link-level1{
+     background-color: #aaaaaa;
+
+ }
+
+.treemenu-link-level1 a:hover{
+    background-color: #818181;
+    color: #ffffff;
+}
+
+.treemenu-container{
+    padding: 0px;
+}
+
+.form-standard .header{
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bookingHeading .label{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    float: left;
+    padding-left: 20px;
+}
+
+.bookingHeading .value{
+    clear: right;
+}
+
+.bookingHeading > div{
+  display: flex;
+    align-items: center;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+
+.tripSummery .subHeading{
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.38);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.transitHeading > .label{
+    float: left;
+    width: 150px;
+    padding-left: 20px;
+}
+.transitHeading{
+    background-color: rgba(0, 0, 0, 0.22);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.contactPersonDetail{
+    padding-left: 20px;
+}
+
+.tableOfTickets{
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+
+.tableOfTickets table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableOfTickets th,.tableOfTickets  td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #9a9a9a;
+}
+.tableOfTickets tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+.searchBookingPanel

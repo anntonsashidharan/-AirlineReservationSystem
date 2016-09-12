@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="java6SE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/java6SE" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/java6SE" recursive="false" />
+  </library>
+</component>

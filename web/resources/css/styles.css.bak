@@ -1,0 +1,1104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.successMessage{
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid green;
+    background-color: rgba(150, 216, 150, 0.4);
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.errorMessage{
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid red;
+    background-color: rgba(229, 142, 142, 0.59);
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+#topbar{
+    height: 80px;
+    background-color: #3a3a3a;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#logo,#menu{
+    float: left;
+}
+
+#login{
+    float: right;
+}
+
+#logo img{
+    height: 100%;
+}
+
+#navbar, #loginnavbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarItem a, .loginnavbarItem a  {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding-top: 30px;
+    -webkit-box-sizing: border-box;  /*issue with IE7*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbarItem{
+    float: left;
+    height: 100%;
+}
+
+.navbarItem a:hover, .loginnavbarItem a:hover{
+    background-color: black;
+}
+
+.loginnavbarItem{
+    float: right;
+    height: 100%;
+}
+
+
+html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+.searchpaneltabs ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.searchpaneltabs ul li a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.searchpaneltabs ul li{
+    float: left;
+    height: 100%;
+}
+
+.searchpaneltabs ul li a:hover{
+    background-color: black;
+}
+
+.section1 {
+    background: url("../images/section1Background.jpg") no-repeat;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    background-size:cover;
+}
+
+.section1 .content{
+    width: 70%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section1 .content .searchpanel{
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.section1 .content .extra{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-image: url("../images/plane.jpg");
+    background-size: 100%;
+}
+
+.section1 .content .searchpaneltabs{
+    float: left;
+    width: 100%;
+    height: 10%;
+}
+
+.section1 .searchform{
+    display: inline-flex;
+    height: 90%;
+    width: 100%;
+}
+
+.searchFormContent{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+
+.searchFormContent .line1,.searchFormContent .line2,.searchFormContent .line3,.searchFormContent .line4, .searchFormContent .line5{
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+
+.searchFormContent .line1{
+    height: 30px;
+}
+
+.searchFormContent .line1 div{
+    float: left;
+    padding-left: 2%;
+}
+
+.searchFormContent .col1,.searchFormContent .col2{
+    display: inline-flex;
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+.searchFormContent .line2 input,.searchFormContent .line3 input{
+    width: 90%;
+    margin: auto;
+    height: 70%;
+    font-size: 120%;
+    border-radius: 5px;
+    padding-left: 3%;
+}
+
+.searchFormContent .line4 .col1 > div , .searchFormContent .line4 .col2 > div{
+    width: 90%;
+    margin: auto;
+}
+
+.searchFormContent .line4 .col1 > div > div{
+    float: left;
+    width: 33%;
+    height: 50px;
+}
+
+.searchFormContent .line4 .col1 select{
+    width: 95%;
+    margin-top: 5px;
+}
+.searchFormContent .line4 .col2 input{
+    margin-left: 0px;
+}
+
+.searchFormContent .line4 .col2 > div{
+    width: 100%;
+
+}
+.searchFormContent .line4 .classSelect>div{
+    margin-top: 5px;
+    float: left;
+}
+.searchFormContent .line4 .classSelect>div>select{
+    margin-left: 8%;
+}
+
+.searchFormContent .line4 .col2 > div{
+    width: 90%;
+    margin: auto;
+}
+
+.searchFormContent .line5{
+    width: 100%;
+}
+.searchFormContent .line5 input{
+    float: right;
+    font-size: 15px;
+    height: 40px;
+    width: 30%;
+    border-radius : 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.searchFormContent .line5 input:hover{
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.searchpaneltabs{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.searchform{
+    background: rgba(255, 255, 255, 0.8);
+}
+
+input{
+    opacity: 1;
+}
+
+/*image location for jquery*/
+.ui-widget-header .ui-icon {
+    background-image: url("/resources/images/ui-icons_444444_256x240.png");
+}
+
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/*Signup and login page*/
+
+.contentPane{
+    background: url("/resources/images/section1Background.jpg") no-repeat center center;
+    height: 500px;
+    width: 100%;
+}
+
+.contentPane, .footer{
+    width: 100%;
+}
+
+#signupError,#loginError{
+    width: 30%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signupFormContainer,#loginFormContainer{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 420px;
+    box-shadow:
+        0px 0px 0px 5px rgba(84, 80, 111, 0.04),
+        0px 4px 20px rgb(0, 0, 0);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+    position: static;
+    background: rgba(0, 0, 0 , 0.6);
+}
+
+#signupForm,#loginForm{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#signupForm >.header, #loginForm >.header{
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    color: #ffffff;
+
+}
+
+#signupForm > .header > p , #loginForm > .header > p{
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    width: 80%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signupForm .inputs{
+    width:100%;
+    height: 100%;
+}
+
+
+#signupForm #line1,#signupForm #line2,#signupForm #line3,#signupForm #line4,
+#loginForm #line1,#loginForm #line2,#loginForm #line3,#loginForm #line4{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#signupForm input[type="email"],#signupForm input[type=password],
+#loginForm input[type="email"],#loginForm input[type=password]{
+    padding-left: 10px;
+    background: #f5f5f5;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+}
+
+#signupForm input[type="email"]:focus,#signupForm input[type=password]:focus,
+#loginForm input[type="email"]:focus,#loginForm input[type=password]:focus{
+    background: #feffd9;
+    box-shadow: 0px 0px 0px 3px #fbffa0, inset 0px 2px 3px rgba( 0,0,0,0.2 ), 0px 5px 5px rgba( 0,0,0,0.15 );
+    outline: none;
+}
+
+#signupForm a,
+#loginForm a{
+    display: block;
+    text-align: center;
+}
+
+#signupForm #line4 p
+#loginForm #line4 p{
+    align-self: center;
+}
+
+#signupForm input,#signupForm a,
+#loginForm input,#loginForm a{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 100%;
+    font-family: verdana, helvetica, arial, sans-serif;
+}
+
+
+
+#signupForm input[type="submit"],#signupForm a,
+#loginForm input[type="submit"],#loginForm a{
+    font-size: 20px;
+    height: 50px;
+    border-radius : 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.81) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+
+}
+
+#signupForm input[type="submit"]:hover,#signupForm a:hover
+#loginForm input[type="submit"]:hover,#loginForm a:hover{
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+
+#signup {
+    padding: 0px 25px 25px;
+    background: #fff;
+    box-shadow:
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ),
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#signup .inputs input[type=email], input[type=password] {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Profile management page*/
+
+.profileManagementContentPane{
+    background: url("") no-repeat center center;
+}
+
+.contentPane>.profileManagementSuccess{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contentPane>.profileManagementError{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentPane>.profileFormContainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentPane>.profileFormContainer>.profileForm>.header{
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: #3a3a3a;
+    font-size: 30px;
+}
+
+.contentPane>.profileFormContainer>.profileForm>.inputs{
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div{
+    width:100%;
+}
+
+
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>div{
+    height:50px;
+    float:left;
+}
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>div>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>.label{
+    padding-top:8px;
+    clear: left;
+    width: 18%;
+}
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>.update{
+    clear: left;
+    float: left;
+    width: 53%;
+}
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>.update input{
+    font-size: 20px;
+    float: right;
+    height: 50px;
+    width: 35%;
+    border-radius : 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>.update input:hover{
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>.separator{
+    padding-top:8px;
+    width: 5%;
+}
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>.input{
+    width: 30%;
+}
+
+.contentPane>.profileFormContainer>.profileForm>.inputs>div>.input input{
+    height:40px;
+    width: 100%;
+    font-size: 18px;
+    padding-left:6px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FAQ page*/
+.faqContentPane{
+    background: url("");
+}
+
+.faqFormContainer>.header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: verdana, helvetica, arial, sans-serif;
+}
+
+.faqFormContainer>.questionAnswers{
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 20px;
+     font-family: verdana, helvetica, arial, sans-serif;
+ }
+
+
+.faqFormContainer>.questionAnswers>.questionDiv{
+    width: 100%;
+    font-size: 20px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    background: rgb(235, 235, 255);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top:20px;
+    border: 1px solid #aaaaaa;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 10px 10px #d9d9d9;
+    -moz-box-shadow: 0px 0px 10px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 10px #d9d9d9;
+    box-sizing:border-box;
+}
+
+.faqFormContainer>.questionAnswers>.questionDiv>.questionID{
+   font-weight: bold;
+}
+
+ .faqFormContainer>.questionAnswers>.questionDiv>.answerForm>.newAnswer>.newAnswerTextArea{
+     width: 100%;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-top: 10px;
+ }
+
+.faqFormContainer>.questionAnswers>.questionDiv>.answerButton>input, .faqFormContainer>.questionAnswers>.questionDiv>.answerForm>.submitAnswerButton>.submitAnswer{
+    font-size: 15px;
+    height: 30px;
+    width: 20%;
+    border-radius : 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.faqFormContainer>.questionAnswers>.questionDiv>.answerButton>input:hover,
+.faqFormContainer>.questionAnswers>.questionDiv>.answerForm>.submitAnswerButton>.submitAnswer:hover{
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+.faqFormContainer>.questionAnswers>.questionDiv>.answerForm>.submitAnswerButton>.submitAnswer{
+    float: right;
+}
+
+.faqFormContainer>.questionAnswers>.questionDiv>.answerForm>.submitAnswerButton{
+    height: 30px;
+}
+
+.faqFormContainer>.questionAnswers>.questionDiv>.userQuestion,
+.faqFormContainer>.questionAnswers>.questionDiv>.dateQuestion,
+.faqFormContainer>.questionAnswers>.questionDiv>.timeQuestion{
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.faqFormContainer>.questionAnswers>.questionDiv>.userQuestion{
+    margin-top: 5px;
+}
+.faqFormContainer>.questionAnswers>.questionDiv>.question{
+    margin-top: 5px;
+}
+
+.faqFormContainer>.questionAnswers>.answerDiv{
+    width: 100%;
+    font-size: 20px;
+    font-family: verdana, helvetica, arial, sans-serif;
+    background: rgb(226, 227, 255);
+    border-radius: 8px;
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-left: 40px;
+    box-sizing:border-box;
+    border: 1px solid #aaaaaa;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 10px 10px #d9d9d9;
+    -moz-box-shadow: 0px 0px 10px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 10px #d9d9d9;
+}
+
+.faqFormContainer>.questionAnswers>.answerDiv>.answerID{
+    font-style: italic;
+}
+
+.faqFormContainer>.questionAnswers>.answerDiv>.userAnswer,
+.faqFormContainer>.questionAnswers>.answerDiv>.dateAnswer,
+.faqFormContainer>.questionAnswers>.answerDiv>.timeAnswer{
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+
+.faqFormContainer>.faq>.inputs{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.faqFormContainer>.faq>.inputs textarea{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+.faqFormContainer>.faq>.inputs>#line2>input{
+    font-size: 20px;
+    float: right;
+    height: 50px;
+    width: 35%;
+    border-radius : 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+.faqFormContainer>.faq>.inputs>#line2>input:hover{
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}
+
+
+
+
+
+
+
+
+
+/*Flight Search*/
+.flightSearchResultContainer{
+	width: 100%;
+}
+.tripPane{
+	width:75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.filter{
+	width: 100%;
+}
+
+.tripPane .heading{
+	height:60px;
+	background-color: gray;
+	border-radius : 5px;
+}
+
+.ui-slider-range.ui-widget-header.ui-corner-all {
+    background-color: red;
+    background-image: none;
+}
+
+.ui-slider-horizontal{
+	height: 3px;
+}
+
+.ui-slider .ui-slider-handle {
+	height: 10px;
+	width: 10px;
+	border: solid 1px black;
+}
+
+.filter{
+	height: 40px;
+}
+
+.filter > div{
+	float: left;
+	height: 40px;
+}
+
+
+.filter > .label{
+	clear: left;
+	width: 130px;
+}
+.filter > .input{
+	width: 200px;
+	padding-left: 20px;
+}
+
+.filter > .filterdetails{
+	clear: right;
+	width: 200px;
+	padding-left: 20px;
+}
+.filter p{
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+.filter > .input p{
+	margin-top: 16px;
+	margin-bottom: auto;
+}
+
+.filter > .sort{
+	padding-left:10px;
+	width:40px;
+	background: aqua;
+	cursor: pointer;
+}
+
+.filter > .sort:HOVER{
+	background-color: green;
+}
+
+.filter > .sort[clicked=true]{
+	background-color: red;
+}
+
+.tripfilterPane{
+	transition: max-height 500ms;
+}
+
+.tripResult{
+	width: 100%;
+}
+
+.trip{
+	width: 100%;
+	height: 80px;	
+}
+
+.trip > div{
+	float: left;
+}date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Admin Layout */
+.adminContentPane{
+    background: url("");
+}
+
+.administrationContainer,.administrationSuccess,.administrationError{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.administrationContainer>div{
+    float: left;
+}
+
+.administrationContainer>.administrationTreeMenue{
+    width: 25%;
+    border: 1px solid black;
+    -webkit-box-sizing: border-box;  /*issue with IE7*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.administrationContainer>.administrationTreeMenue ul{
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.administrationContainer>.administrationTreeMenue>ul>li>a	{
+    padding-left:10px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.administrationContainer>.administrationTreeMenue ul a	{
+    display: block;
+    height: 35px;
+    padding-top:10px;
+    background-color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    color: white;
+}
+
+.administrationContainer>.administrationTreeMenue ul ul a	{
+    padding-left:30px;
+}
+
+.administrationContainer>.administrationTreeMenue ul ul a:hover	{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.administrationContainer>.administrationTreeMenue ul ul{
+    margin-left: 0px;
+}
+
+
+
+.administrationContainer>.adminstrationPanel{
+    margin-left: 1%;
+    width: 73.5%;
+    border: 1px solid black;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;  /*issue with IE7*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.header{
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.header>p,
+.administrationContainer>.adminstrationPanel>.createUserForm>.subheader>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.subheader{
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>div{
+    float: left;
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.label{
+    clear: left;
+    width:20%;
+}
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.separator{
+    width:5%;
+}
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.input{
+    width:50%;
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.input P{
+    height: 40px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.input input{
+    height:100%;
+    width: 150%;
+    font-size: 18px;
+    padding-left:6px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.radio input{
+    height:15px;
+    width: 15px;
+}
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.radio p{
+    padding-top: 14px;
+
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.createUserButton{
+    clear: left;
+}
+
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.createUserButton input{
+    float: right;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    border-radius : 5px;
+    background: #173f59;
+    background: -webkit-linear-gradient(top, #3e779d, #173f59);
+    background: -moz-linear-gradient(top, #3e779d, #173f59);
+    background: -ms-linear-gradient(top, #3e779d, #173f59);
+    border-radius: 8px;
+    box-shadow: rgba(155, 189, 240, 0.63) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.administrationContainer>.adminstrationPanel>.createUserForm>.inputs>.line>.createUserButton input:hover{
+    background: -webkit-linear-gradient(top, #173f59, #3e779d);
+    background: -moz-linear-gradient(top, #173f59, #3e779d);
+    background: -ms-linear-gradient(top, #173f59, #3e779d);
+}

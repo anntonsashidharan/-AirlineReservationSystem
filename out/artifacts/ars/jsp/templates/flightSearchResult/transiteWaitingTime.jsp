@@ -1,0 +1,1 @@
+<div class="transiteTime">     <div class="lable">Waiting Hours</div>     <div class="waitingHours">XX:XX</div> </div>

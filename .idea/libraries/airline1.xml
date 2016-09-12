@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="airline1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/ARS/webservice/airline1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

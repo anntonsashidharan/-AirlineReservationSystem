@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ars">
+    <output-path>$PROJECT_DIR$/out/artifacts/ars</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AirlineReservationSystem" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../libruaries/ARS/webservice/airline1" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../libruaries/ARS/webservice/airline2" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../libruaries/ARS/webservice/airline3" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../libruaries/ARS/webservice/airline4" />
+          <element id="library" level="project" name="airline1" />
+          <element id="library" level="project" name="airline2" />
+          <element id="library" level="project" name="airline3" />
+          <element id="library" level="project" name="airline4" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/ARS/gson-2.2.2.jar/gson-2.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/airline/postgresql-9.4.1208.jre6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/ARS/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/ARS/postgresql-9.4.1208.jre6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/ARS/java-mail-1.4.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libruaries/ARS/activation.jar" />
+          <element id="library" level="project" name="activation" />
+          <element id="library" level="project" name="java-mail-1.4.4" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="postgresql-9.4.1208.jre6" />
+          <element id="library" level="project" name="gson-2.2.2" />
+          <element id="library" level="project" name="java6SE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="AirlineReservationSystem/web/Web" />
+    </root>
+  </artifact>
+</component>

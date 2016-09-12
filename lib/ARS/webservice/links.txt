@@ -1,0 +1,25 @@
+cd C:\Users\JJ\IdeaProjects\libruaries\ARS\webservice\airline1
+
+
+wsimport http://sasi-pc:8081//Airline1?wsdl
+
+
+
+
+cd C:\Users\JJ\IdeaProjects\libruaries\ARS\webservice\airline2
+
+
+wsimport http://sasi-pc:8082//Airline2?wsdl
+
+
+
+
+cd C:\Users\JJ\IdeaProjects\libruaries\ARS\webservice\airline3
+
+wsimport http://sasi-pc:8083//Airline3?wsdl
+
+
+
+cd C:\Users\JJ\IdeaProjects\libruaries\ARS\webservice\airline4
+
+wsimport http://sasi-pc:8084//Airline4?wsdl
